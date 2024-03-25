@@ -38,7 +38,7 @@ pipeline {
       }
     }
 
-   stage('Update Deployment File') {
+   stage('Update Deployment File and argocd') {
         environment {
             GIT_REPO_NAME = "CI-CD-JENKINS-DOCKER-HELM-K8S"
             GIT_USER_NAME = "Rakeshkunagi1995"
